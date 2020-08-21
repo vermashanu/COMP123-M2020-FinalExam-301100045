@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
+// Created by Shivani - 301100045 - COMP123
 namespace COMP123_M2020_FinalExam
 {
     public class Character
