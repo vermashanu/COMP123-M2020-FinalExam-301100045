@@ -10,6 +10,8 @@ namespace COMP123_M2020_FinalExam
     {
         public static Character character = new Character();
 
+        public static SplashForm splashForm;
+        
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -19,7 +21,9 @@ namespace COMP123_M2020_FinalExam
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AbilityGeneratorForm());
+
+            splashForm = new SplashForm();
+            Application.Run(splashForm);
         }
     }
 }
